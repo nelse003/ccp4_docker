@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source /ccp4/bin/ccp4.setup-sh
+yes y | ccp4-python -m pip uninstall panddas
+ccp4-python -m pip install panddas
+
